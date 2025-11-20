@@ -19,6 +19,8 @@ import AdminRoute from './AdminRoute';
 export const AppRoutes: React.FC = () => {
   const { isAuthenticated } = useAuth();
 
+  
+
   return (
     <Routes>
       {/* Public routes */}
